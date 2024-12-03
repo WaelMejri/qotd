@@ -1,4 +1,4 @@
-FROM docker.io/golang:latest
+FROM quay.io/projectquay/golang
 RUN mkdir /app
 ADD . /app/
 WORKDIR /app
