@@ -1,4 +1,4 @@
-FROM quay.io/projectquay/golang
+FROM quay.io/projectquay/golang:1.23
 RUN mkdir /app
 ADD . /app/
 WORKDIR /app
